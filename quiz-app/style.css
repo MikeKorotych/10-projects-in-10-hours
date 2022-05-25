@@ -5,6 +5,64 @@
 }
 
 body {
+    background-color: #f1dfd1;
+    background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-container {
+    background-color: #fff;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 2px rgba(100, 100, 100, 0.1);
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding: 3rem;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    padding: 2rem;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    /* background-color: #8e44ad; */
+    background-color: #1e272e;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-family: inherit;
+    padding: 2rem;
+    font-size: 1rem;
+    bottom: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+button:hover {
+    background-color: #2d3b46;
+}
+
+button:focus {
+    outline: none;
 }
