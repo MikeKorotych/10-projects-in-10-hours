@@ -9,45 +9,29 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
     <title>Recipes App</title>
   </head>
   <body>
     <div class="mobile-container">
       <header>
-        <input type="text" />
+        <input type="text" id="search-term" />
         <button id="search"><i class="fas fa-search"></i></button>
       </header>
       <div class="fav-container">
         <h3>Favorite Meals</h3>
-        <ul class="fav-meals">
-          <li>
-            <img
-              src="https://www.themealdb.com/images/ingredients/Lime.png"
-              alt=""
-            /><span>Lime</span>
-          </li>
-          <li>
-            <img
-              src="https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg"
-              alt=""
-            /><span>Carbonara</span>
-          </li>
-          <li>
-            <img
-              src="https://www.themealdb.com/images/media/meals/u9l7k81628771647.jpg"
-              alt=""
-            /><span>Apple Pie</span>
-          </li>
-          <li>
-            <img
-              src="https://www.themealdb.com/images/media/meals/n7qnkb1630444129.jpg"
-              alt=""
-            /><span>Sandwich</span>
-          </li>
-        </ul>
+        <ul class="fav-meals" id="favoriteContainer"></ul>
       </div>
       <div class="meals" id="meals"></div>
     </div>
-    <script src="script.js"></script>
+
+    <div class="popup-container hidden" id="meal-popup">
+      <div class="popup">
+        <button id="close-popup"><i class="fas fa-times"></i></button>
+        <div class="meal-info" id="meal-info"></div>
+      </div>
+      <!-- meal-info -->
+    </div>
+    <!-- meal-info-container -->
   </body>
 </html>
