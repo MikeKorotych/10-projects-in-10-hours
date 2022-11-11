@@ -106,6 +106,12 @@ header input:focus {
   cursor: pointer;
   padding: 0.25rem 1rem;
   border-radius: 50px;
+  border: 2px solid #373b69;
+  background-color: #454b85;
+  transition: all 0.2s ease;
+}
+
+.popular:hover {
   background-color: #373b69;
 }
 
