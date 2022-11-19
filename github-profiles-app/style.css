@@ -7,7 +7,15 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  height: 100vh;
-  background: linear-gradient(to top, #373b44, #4286f4);
+  min-height: 100vh;
+  background: linear-gradient(to right, #373b44, #4286f4);
   background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
 }
