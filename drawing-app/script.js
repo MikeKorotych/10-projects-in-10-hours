@@ -51,12 +51,3 @@ decreaseBtn.addEventListener("click", (e) => {
 colorEl.addEventListener("change", (e) => {
   color = e.target.value;
 });
-
-// function draw() {
-//   ctx.clearRect(0, 0, canvas.width, canvas.height);
-//   drawCircle(x++, y++);
-
-//   requestAnimationFrame(draw);
-// }
-
-// draw();
